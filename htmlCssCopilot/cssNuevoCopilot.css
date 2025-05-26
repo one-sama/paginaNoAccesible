@@ -1,0 +1,159 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: #f7f7fa;
+    color: #222;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: underline;
+    color: #2a4d69;
+    transition: color 0.2s;
+}
+a:focus, a:hover {
+    color: #4b86b4;
+    outline: none;
+    outline-offset: 0;
+}
+
+/* Solo los enlaces del footer tendrán outline visible */
+footer a:focus, footer a:hover {
+    color: #b3cde0;
+    outline: 2px solid #b3cde0;
+    outline-offset: 2px;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.laterales {
+    padding: 20px;
+    text-align: left;
+    color: #222;
+    width: 15%;
+    background-color: #e3eaf2;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border-radius: 12px;
+}
+
+main {
+    width: 70%;
+    padding: 24px;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 1.2rem;
+    color: #222;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+h1, h2, h3 {
+    color: #2a4d69;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.2rem; }
+
+header {
+    position: sticky;
+    top: 0px;
+    padding: 1rem 2rem;
+    height: auto;
+    background-color: #f9f6f2;
+    border-bottom: 2px solid #e3eaf2;
+    z-index: 10;
+}
+header p {
+    margin: 0.5em 0 0 0;
+    font-size: 1rem;
+    color: #444;
+}
+
+footer {
+    background-color: #2a4d69;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+footer li {
+    display: flex;
+    align-items: center;
+}
+footer a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 1rem;
+}
+
+.redes img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin: 0;
+    display: block;
+}
+
+#volver img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#volver img:hover, #volver img:focus {
+    outline: 2px solid #4b86b4;
+}
+
+#enlace img, #siguiente img {
+    border-radius: 12px;
+}
+
+#fantasmas img:hover {
+    content: url(imagenes/alt7.webp);
+}
+#enlace img:hover {
+    content: url(imagenes/alt2.jpg);
+}
+#siguiente img:hover {
+    content: url(imagenes/alt10.png);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .flexBox {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .laterales, main {
+        width: 100%;
+    }
+    footer ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    footer li {
+        justify-content: center;
+    }
+}

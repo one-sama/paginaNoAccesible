@@ -1,0 +1,88 @@
+/* estilos.css */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin: 0;
+    color: #333333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    text-decoration: underline;
+    outline: 2px dashed #0056b3;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.header-text {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+}
+.sidebar {
+    flex: 1 1 200px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+.content {
+    flex: 2 1 400px;
+    background-color: #e6f7ff;
+    padding: 20px;
+    border: 1px solid #b3e5fc;
+    border-radius: 8px;
+}
+.responsive-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-top: 10px;
+}
+.social-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    justify-content: center;
+}
+.redes img {
+    width: 32px;
+    height: 32px;
+}
+#fantasmas img:hover {
+    content: url(imagenes/alt7.webp);
+}
+#enlace img:hover {
+    content: url(imagenes/alt2.jpg);
+}
+#siguiente img:hover {
+    content: url(imagenes/alt10.png);
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}

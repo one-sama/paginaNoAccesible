@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Page Example</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="cssNuevoChatgpt.css">
+</head>
+<body>
+    <header role="banner">
+        <a id="volver" href="htmlNuevoChatgpt.html" aria-label="Volver a la página principal">
+            <img src="imagenes/alt8.png" alt="Logo de inicio" class="logo">
+            <span class="header-text">Inicio</span>
+        </a>
+    </header>
+
+    <main class="container" role="main">
+        <aside class="sidebar" aria-labelledby="about-title">
+            <h2 id="about-title">Información Lateral</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime qui et magnam perferendis repellendus laudantium vero unde velit deleniti odio, minima, distinctio accusantium rem dolores, non dolor. Magnam, sint! Neque.</p>
+            <a id="enlace" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" aria-label="Enlace a video de YouTube">
+                <img src="imagenes/alt1.jpg" alt="Miniatura del video" class="responsive-image">
+            </a>
+        </aside>
+
+        <article class="content">
+            <h1>Main Title: Lorem Ipsum Dolor</h1>
+            <h2>Subheading: Odio mollitia natus</h2>
+            <p>Asperiores, nobis dolor, ut sequi optio dolores adipisci. Id. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad quod quibusdam dolores fugiat, maiores quo ipsum tempore facere natus velit harum explicabo corporis nobis quas magni, voluptatem laboriosam quaerat! Aliquam!</p>
+        </article>
+
+        <aside class="sidebar" aria-labelledby="next-title">
+            <h2 id="next-title">Siguiente Sección</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime qui et magnam perferendis repellendus laudantium vero unde velit deleniti odio, minima, distinctio accusantium rem dolores, non dolor. Magnam, sint! Neque.</p>
+            <a id="siguiente" href="paginaSecundaria.html" aria-label="Ir a la página secundaria">
+                <img src="imagenes/alt9.png" alt="Imagen de la siguiente página" class="responsive-image">
+            </a>
+        </aside>
+    </main>
+
+    <footer role="contentinfo">
+        <nav aria-label="Redes sociales">
+            <ul class="social-list">
+                <li><a class="redes" href="https://x.com/spain?lang=es" aria-label="Twitter"><img src="imagenes/alt3.jpeg" alt="Icono Twitter"></a></li>
+                <li><a class="redes" href="https://www.instagram.com/?hl=es" aria-label="Instagram"><img src="imagenes/alt4.jpg" alt="Icono Instagram"></a></li>
+                <li><a class="redes" href="https://about.meta.com/es/" aria-label="Meta"><img src="imagenes/alt5.webp" alt="Icono Meta"></a></li>
+                <li><a id="fantasmas" class="redes" href="https://www.youtube.com/watch?v=IesCoJhKlRw" aria-label="Snapchat"><img src="imagenes/alt6.jpg" alt="Icono Snapchat"></a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>

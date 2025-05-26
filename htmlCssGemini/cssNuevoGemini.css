@@ -1,0 +1,177 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: #333; /* Color de texto más oscuro para mejor contraste */
+    background-color: #f4f4f4; /* Fondo suave para mejor legibilidad */
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Color de enlace accesible y reconocible */
+    text-align: center;
+}
+
+a:hover, a:focus {
+    text-decoration: underline; /* Subrayado al pasar el mouse o enfocar para indicar que es interactivo */
+    color: #0056b3; /* Un color ligeramente más oscuro para el hover/focus */
+}
+
+/* Clases para lectores de pantalla */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+}
+
+.laterales {
+    padding: 20px;
+    text-align: center;
+    color: #333; /* Color de texto para las barras laterales */
+    background-color: #e0f7fa; /* Un color de fondo más suave para las barras laterales */
+    width: 100%; /* Por defecto, ocupa todo el ancho en pantallas pequeñas */
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Espacio entre los elementos en vista móvil */
+}
+
+.main-content { /* Renombrado de 'main' a 'main-content' para evitar conflictos con la etiqueta <main> */
+    width: 100%; /* Por defecto, ocupa todo el ancho en pantallas pequeñas */
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.6em; /* Ajuste del interlineado para mejor legibilidad */
+    font-size: 1.1em; /* Ajuste del tamaño de fuente */
+    color: #000; /* Texto oscuro sobre fondo claro */
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    height: auto; /* Altura automática para adaptarse al contenido */
+    background-color: #ffe0b2; /* Color de fondo más accesible */
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Sutil sombra para dar profundidad */
+    z-index: 1000; /* Asegura que el header esté siempre visible */
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333; /* Color de texto para el enlace del header */
+}
+
+#volver img {
+    width: 80px; /* Tamaño ligeramente reducido para el logotipo */
+    height: 80px;
+    border-radius: 50%; /* Usar 50% para círculos perfectos */
+    margin-right: 15px;
+    border: 2px solid #ccc; /* Borde suave para el logotipo */
+}
+
+#volver img:hover, #volver img:focus {
+    transform: scale(1.05); /* Efecto de zoom suave */
+    transition: transform 0.3s ease;
+}
+
+#enlace img, #siguiente img {
+    width: 100%; /* Asegura que las imágenes dentro de los enlaces laterales sean responsivas */
+    height: auto;
+    max-width: 200px; /* Limita el tamaño máximo para que no sean demasiado grandes */
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.redes img {
+    margin: 7px;
+    width: 40px; /* Iconos más grandes para una mejor visibilidad */
+    height: 40px;
+    border-radius: 50%; /* 50% para círculos perfectos */
+    vertical-align: middle; /* Alinea verticalmente los iconos con el texto */
+    border: 1px solid #eee;
+}
+
+.redes {
+    display: inline-flex; /* Permite que los elementos se comporten como flex-items en línea */
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #bbdefb; /* Fondo suave para los enlaces de redes sociales */
+    color: #333; /* Color de texto para los enlaces de redes sociales */
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.redes:hover, .redes:focus {
+    background-color: #90caf9;
+}
+
+footer {
+    background-color: #263238; /* Color de fondo oscuro para el footer */
+    color: #eceff1; /* Color de texto claro para el footer */
+    padding: 20px;
+    text-align: center;
+    height: auto; /* Altura automática */
+    margin-top: 20px; /* Espacio superior */
+}
+
+footer nav ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer nav ul li {
+    margin: 0 10px; /* Espacio entre los elementos de la lista */
+}
+
+/* Efectos hover/focus para las imágenes con cambio de contenido */
+#fantasmas img:hover, #fantasmas img:focus {
+    content: url(imagenes/alt7.webp);
+}
+
+#enlace img:hover, #enlace img:focus {
+    content: url(imagenes/alt2.jpg);
+}
+
+#siguiente img:hover, #siguiente img:focus {
+    content: url(imagenes/alt10.png);
+}
+
+/* Media Queries para diseño responsivo */
+@media screen and (min-width: 600px) {
+    .laterales {
+        width: 25%; /* En pantallas medianas, las barras laterales ocupan un 25% */
+        margin-bottom: 0;
+    }
+
+    .main-content {
+        width: 50%; /* El contenido principal ocupa el 50% */
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .laterales {
+        width: 15%; /* En pantallas grandes, las barras laterales son más delgadas */
+    }
+
+    .main-content {
+        width: 70%; /* El contenido principal ocupa más espacio */
+    }
+}
