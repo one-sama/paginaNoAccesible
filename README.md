@@ -36,7 +36,7 @@ Este es el resultado al pasarlo por la herramienta Wave, es el mejor resultado q
 
 ### Gemini
 
-La ultima IA por la que pase el prompt fue Gemini, los problemas que me dio fueron faciles que solucionar.
+La ultima IA por la que pase el prompt fue Gemini, los problemas que me dio fueron faciles de solucionar.
 
 ![Captura de pantalla (580)](https://github.com/user-attachments/assets/ee9a85cc-4e6a-4645-a607-6d7ac46084de)
 
