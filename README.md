@@ -8,7 +8,7 @@ En primer lugar se creo una pagina con errores de accessibilidad: https://one-sa
 
 Como se puede ver en la captura hay siete errores, algunos de constrante otros por la colocacion de las etiquetas <h1>, <h2> y <h3>.
 
-###Copilot
+### Copilot
 
 Para comenzar empece utilizando la IA Copilot, el prompt utilizado para la tarea fue este:
 
@@ -20,7 +20,7 @@ Este prompt se diferencia del resto en el echo de los archivos que procesa, debi
 
 Este es el resultado, lo unico resaltable son sus seis alertas, pero a solucionado todos los errores, incluso de css. Hay que aclarar que en un principio hice el proceso mal, modifico el html por un lado y despues le pedi que modificase el css debido a un error mio, cuando modifique el prompt me hizo la misma pagina que ya me habia echo, pero de una sola vez, no se si fue por la memoria u otra cosa ya que esos resultados los elimine. Pero me dio el resultado con ese prompt a pesar de su brevedad.
 
-###Chatgpt
+### Chatgpt
 
 La segunda IA que probe fue Chatgpt, con esta si hubo algunas complicaciones, el prompt fue este:
 
@@ -28,13 +28,13 @@ La segunda IA que probe fue Chatgpt, con esta si hubo algunas complicaciones, el
 
 La unica diferencia con el prompt de Copilot fue que le tuve que pasar el html y css de manera manual, esa es la unica diferencia con respecto a Copilot ya que el prompt sigue siendo el mismo.
 
-Probe el prompt con el modelo estandar ###4o, pero no me dio un buen resultado, asi que probe con el modelo o4-mini ya que es el que se recomienda para programar, tambien active el modo para que buscase en internet, debido a que su base de datos en el modo gratuito no esta actualizada y los estandares de accesibilidad podrian haber cambiado en 2 años.
+Probe el prompt con el modelo estandar 4o, pero no me dio un buen resultado, asi que probe con el modelo o4-mini ya que es el que se recomienda para programar, tambien active el modo para que buscase en internet, debido a que su base de datos en el modo gratuito no esta actualizada y los estandares de accesibilidad podrian haber cambiado en 2 años.
 
 ![Captura de pantalla (577)](https://github.com/user-attachments/assets/a0a0753d-bb68-4c01-b738-2357fcb86409)
 
 Este es el resultado al pasarlo por la herramienta Wave, es el mejor resultado que me a dado una IA.
 
-###Gemini
+### Gemini
 
 La ultima IA por la que pase el prompt fue Gemini, los problemas que me dio fueron faciles que solucionar.
 
