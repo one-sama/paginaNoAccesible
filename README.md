@@ -6,7 +6,7 @@ En primer lugar se creo una pagina con errores de accessibilidad: https://one-sa
 
 ![Captura de pantalla (575)](https://github.com/user-attachments/assets/b9c71190-1036-4d1d-bed0-ca4801dd5e50)
 
-Como se puede ver en la captura hay siete errores, algunos de constrante otros por la colocacion de las etiquetas <h1>, <h2> y <h3>.
+Como se puede ver en la captura hay siete errores, algunos de constrante otros por la colocacion de las etiquetas de distintos encabezados.
 
 ### Copilot
 
