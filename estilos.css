@@ -1,0 +1,189 @@
+body {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fffcfc;
+    text-align: center;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: center;
+}
+
+.laterales {
+padding: 20px;
+    text-align: center;
+    color: #b8eae1;
+    width: 10%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+main {
+    width: 80%;
+    padding: 20px;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 2em;
+    color: rgb(238, 255, 0);
+    background-color: #00b7ff;
+    box-sizing: border-box;
+}
+
+footer {
+  
+    height: 195px;
+    float: none;
+    background-color: #01031e;
+   
+}
+
+header {
+  
+    position: sticky;
+    top: 0px;
+    height: 110px;
+   
+    background-color: #ffe4e4;
+}
+
+#volver img {
+    width: 100px;
+    height: 100px;
+    border-radius: 300px;
+    margin-right: 25px;
+
+}
+
+#volver img:hover {
+    width: 105px;
+    height: 105px;
+}
+
+
+
+
+#enlace img {
+
+    width: 150px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#siguiente img {
+
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.redes img {
+    margin: 7px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.redes {
+    margin: 7px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+
+#volver img {
+    width: 100px;
+    height: 100px;
+    border-radius: 300px;
+    margin-right: 25px;
+
+}
+
+#volver img:hover {
+    width: 105px;
+    height: 105px;
+}
+
+
+
+
+#enlace img {
+
+    width: 150px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#siguiente img {
+
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.redes img {
+    margin: 7px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.redes {
+    margin: 7px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+
+#fantasmas img:hover {
+
+    content: url(imagenes/alt7.webp);
+
+}
+
+#enlace img:hover {
+
+    content: url(imagenes/alt2.jpg);
+
+}
+
+#siguiente img:hover {
+
+    content: url(imagenes/alt10.png);
+
+}
+
+@media screen and (min-width: 600px) {
+    footer {
+  
+        height: 175px;
+    }
+}
+@media screen and (min-width: 992px) {
+    footer {
+  
+        height: 195px;
+    }
+}
+@media screen and (min-width: 768px) {
+    footer {
+  
+        height: 250px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    footer {
+  
+        height: 300px;
+    }
+}
