@@ -14,7 +14,7 @@ Para comenzar empece utilizando la IA Copilot, el prompt utilizado para la tarea
 
 ![Captura de pantalla (563,05)](https://github.com/user-attachments/assets/b1132d4e-6f93-4788-a0cd-2dd4f71be10f)
 
-Este prompt se diferencia del resto en el echo de los archivos que procesa, debido a que con copilot es más facil y sencillo darle contexto con los archivos a modificar, esa es la unica diferencia que hay con los prompts que se veran más adelante, pero el prompt como tal es ese.
+Este prompt se diferencia del resto en el echo de los archivos que procesa, ya que no es necesario pasarle los archivos a mano en el propio prompt, esa es la unica diferencia que hay con los prompts que se veran más adelante, pero el prompt como tal es ese.
 
 ![Captura de pantalla (576)](https://github.com/user-attachments/assets/b90c26d5-7645-4b1b-b8b7-4fab2835c219)
 
